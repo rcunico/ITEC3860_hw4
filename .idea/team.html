@@ -9,34 +9,34 @@
 <body>
 <center>
     <div class="dropdown">
-    <button id="teamButton" class=dropbtn onclick="myFunction()">Team Thanos</button>
-    <div id="dropdownMenu" class="dropdown-content">
+        <button id="teamButton" class=dropbtn onclick="menuFunction()">Team Thanos</button>
+        <div id="dropdownItems" class="dropdown-content">
             <a href="rdc.html">Ryan Cunico</a>
             <a href="rps.html">Richard Smith</a>
-    </div>
+        </div>
     </div>
     <br>
 
     <div id="teamDiv">
-        <table id="ourTable" border="on">
+        <table id="ourTable">
             <tr>
                 <td>
-            <button type="button" id="ryanButton" onclick="hideShow('ryanImage')">Ryan Cunico</button>
+                    <button type="button" id="ryanButton" onclick="hideShow('ryanImage')">Ryan Cunico</button>
                 </td>
                 <td>
-            <button id="richardButton" onclick="hideShow('richardImage')">Richard Smith</button>
+                    <button id="richardButton" onclick="hideShow('richardImage')">Richard Smith</button>
                 </td>
             </tr>
 
             <tr>
                 <td class="td-image">
-                <img id="ryanImage" src="resources/Ryan_Shadow.jpg" width="350">
+                    <img id="ryanImage" src="resources/Ryan_Shadow.jpg">
                 </td>
                 <td class="td-image">
-                    <img id="richardImage" src="resources/Ryan_Shadow.jpg" width="350">
+                    <img id="richardImage" src="resources/Ryan_Shadow.jpg">
                 </td>
             </tr>
-    </table>
+        </table>
     </div>
 </center>
 </body>

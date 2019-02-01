@@ -1,8 +1,36 @@
-
-li
+/* Styling for rdc.html */
+.liItems
 {
-    font-family: 'Calibri';
-    color: aliceblue
+    align-items: center;
+}
+
+#titleDiv
+{
+    border-radius: 25px;
+    width: 375px;
+    height: 100px;
+    background-color: cadetblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+#hobbiesDiv, #educationDiv
+{
+    border-radius: 25px;
+    width: 375px;
+    height: 200px;
+    background-color: cadetblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Styling for all html pages */
+img
+{
+    border-radius: 15%;
+    margin-bottom: -20px;
+    padding-top: 10px;
 }
 
 button
@@ -17,24 +45,6 @@ button
     font-weight: bold;
 }
 
-#hobbiesDiv, #educationDiv
-{
-    border-radius: 25px;
-    width: 375px;
-    height: 200px;
-    background-color: cadetblue;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-
-img
-{
-    border-radius: 15%;
-    margin-bottom: -20px;
-    padding-top: 10px;
-}
-
 h2, h1
 {
     font-family: Calibri;
@@ -42,20 +52,28 @@ h2, h1
     font-weight: bold;
 }
 
+li
+{
+    font-family: 'Calibri';
+    color: aliceblue
+}
+
 ul
 {
     display: inline-block;
 }
 
-#customDiv
+/* Styling used in team.html */
+#ryanButton
 {
-    border-radius: 25px;
-    width: 375px;
-    height: 100px;
-    background-color: cadetblue;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 15px;
+    float: right;
+    padding-right: 5px;
+}
+
+#richardButton
+{
+    float: left;
+    padding-left: 5px;
 }
 
 #richardImage
@@ -79,9 +97,9 @@ ul
     resize: none;
 }
 
-#ourTable
+#ryanImage, #richardImage
 {
-
+    width: 350px;
 }
 
 #teamDiv
@@ -99,6 +117,7 @@ ul
     padding-bottom: 10px;
     margin-bottom: 15px;
 }
+
 #teamButton
 {
     border-radius: 25px;
@@ -114,11 +133,12 @@ ul
     color: aliceblue;
     border: none;
     cursor: pointer;
-
 }
 
+/* Dropdown menu styling */
 /* Dropdown Button */
-.dropbtn {
+.dropbtn
+{
     background-color: #3498DB;
     color: white;
     padding: 16px;
@@ -128,28 +148,32 @@ ul
 }
 
 /* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
+.dropbtn:hover, .dropbtn:focus
+{
     background-color: #2980B9;
 }
 
 /* The container <div> - needed to position the dropdown content */
-.dropdown {
+.dropdown
+{
     position: relative;
     display: inline-block;
 }
 
 /* Dropdown Content (Hidden by Default) */
-.dropdown-content {
+.dropdown-content
+{
     display: none;
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
 /* Links inside the dropdown */
-.dropdown-content a {
+.dropdown-content a
+{
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -157,8 +181,14 @@ ul
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd}
+.dropdown-content a:hover
+{
+    background-color: #ddd
+}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
+.show
+{
+    display: block;
+}
 

@@ -10,36 +10,41 @@
 <body>
 
 <center>
-    <div id="customDiv"><h1>Ryan Cunico's Resume</h1></div>
-    <img src="resources/molly_ryan.jpg" height="375px" alt="Ryan and his girlfriend Molly" about="Ryan and his girlfriend Molly">
-    <p style="font-family: Calibri">Ryan and his girlfriend Molly</p>
+    <div id="titleDiv"><h1>Ryan Cunico's Resume</h1></div>
+    <img src="resources/molly_ryan.jpg" height="375px" alt="Ryan and his girlfriend Molly"
+         about="Ryan and his girlfriend Molly">
+    <p>Ryan and his girlfriend Molly</p>
     <br>
-<button type="button" id="educationButton" onclick="changeText(this), hideShow('educationDiv')">Hide Education</button>
-<div id="educationDiv">
-<h2 style="padding-bottom: -30px">Education:</h2>
-    <ul>
-        <li style="align-items: center">College #2: Georgia Gwinnett College (2020)</li>
-        <li>College: Georgia Southern University (2011)</li>
-        <li>High School: South Gwinnett High School (2006)</li>
-    </ul>
-</div>
+    <button type="button" id="educationButton" onclick="changeText(this), hideShow('educationDiv')">Hide Education
+    </button>
+    <div id="educationDiv">
+        <h2 style="padding-bottom: -30px">Education:</h2>
+        <ul class="liItems">
+            <li>College #2: Georgia Gwinnett College (2020)</li>
+            <li>College: Georgia Southern University (2011)</li>
+            <li>High School: South Gwinnett High School (2006)</li>
+        </ul>
+    </div>
     <br>
-<button id="hobbiesButton" onclick="hideShow('hobbiesDiv'); changeText(this)">Hide Hobbies</button>
-<div id="hobbiesDiv">
-    <h2>Hobbies:</h2>
-    <ul>
-    <li>Camping</li>
-    <li>Hiking</li>
-    <li>Off-roading</li>
-    <li>Fixing things</li>
-    <li>Working on cars</li>
-</ul>
-</div>
-<br>
-    <img src="resources/Ryan_Shadow.jpg" width="375" alt="Ryan and Shadow, his 9-year-old black lab" about="Ryan and Shadow, his 9-year-old black lab">
-    <p style="font-family: Calibri">Ryan and Shadow, his 9-year-old black lab</p>
-<br>
-    <a href="team.html"><button id="backHome">Back to main page</button></a>
+    <button id="hobbiesButton" onclick="hideShow('hobbiesDiv'); changeText(this)">Hide Hobbies</button>
+    <div id="hobbiesDiv">
+        <h2>Hobbies:</h2>
+        <ul class="liItems">
+            <li>Camping</li>
+            <li>Hiking</li>
+            <li>Off-roading</li>
+            <li>Fixing things</li>
+            <li>Working on cars</li>
+        </ul>
+    </div>
+    <br>
+    <img src="resources/Ryan_Shadow.jpg" width="375" alt="Ryan and Shadow, his 9-year-old black lab"
+         about="Ryan and Shadow, his 9-year-old black lab">
+    <p>Ryan and Shadow, his 9-year-old black lab</p>
+    <br>
+    <a href="team.html">
+        <button id="backHome">Back to main page</button>
+    </a>
 </center>
 </body>
 </html>
