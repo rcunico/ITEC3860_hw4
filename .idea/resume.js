@@ -29,7 +29,7 @@ function changeText(button)
 toggle between hiding and showing the dropdown content */
 function menuFunction()
     {
-    document.getElementById("dropdownMenu").classList.toggle("show");
+    document.getElementById("dropdownItems").classList.toggle("show");
     }
 
 // Close the dropdown menu if the user clicks outside of it
