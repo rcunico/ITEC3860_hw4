@@ -1,3 +1,4 @@
+//Used in main page and Ryan's resume
 function hideShow(id)
     {
     var divID = document.getElementById(id);
@@ -47,5 +48,33 @@ window.onclick = function (event)
                 openDropdown.classList.remove('show');
                 }
             }
+        }
+    }
+
+
+//Used in Richard's resume
+var text = 'Hide';
+
+function setButtonNames()
+    {
+    document.getElementById("educationButton").innerHTML = text + ' Education';
+    document.getElementById("hobbiesButton").innerHTML = text + ' Hobbies';
+    }
+
+function toggleDiv(divID, buttonName)
+    {
+    var x = document.getElementById(divID);
+    var y = document.getElementById(buttonName);
+    if (x.style.display == "none")
+        {
+        x.style.display = "block";
+        text = 'Hide';
+        y.innerText = text + y.innerText.substring(y.innerText.lastIndexOf(' '),y.innerText.length);
+        }
+    else
+        {
+        x.style.display = "none";
+        text = 'Show';
+        y.innerText = text + y.innerText.substring(y.innerText.lastIndexOf(' '),y.innerText.length);
         }
     }

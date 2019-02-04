@@ -8,17 +8,37 @@
 {
     border-radius: 25px;
     width: 375px;
+    height: 50px;
+    background-color: cadetblue;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-family: Calibri;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+#ryanTitleButton
+{
+    border-radius: 25px;
+    width: 375px;
     height: 100px;
     background-color: cadetblue;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 15px;
+    font-size: 55px;
+    font-family: Calibri;
+    font-weight: bold;
+    color: aliceblue;
+    border: none;
 }
 
 #hobbiesDiv, #educationDiv
 {
     border-radius: 25px;
-    width: 375px;
+    width: 40%;
     height: 200px;
     background-color: cadetblue;
     padding-top: 10px;
@@ -29,11 +49,11 @@
 img
 {
     border-radius: 15%;
-    margin-bottom: -20px;
+    margin-bottom: -5px;
     padding-top: 10px;
 }
 
-button
+#ryanEduButton, #ryanHobbiesButton, #backHome, #ryanButton, #richardButton
 {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -45,20 +65,20 @@ button
     font-weight: bold;
 }
 
-h2, h1
+#h2Header, #h1Header
 {
     font-family: Calibri;
     color: aliceblue;
     font-weight: bold;
 }
 
-li
+ulClass
 {
     font-family: 'Calibri';
     color: aliceblue
 }
 
-ul
+liItem
 {
     display: inline-block;
 }
@@ -190,5 +210,47 @@ ul
 .show
 {
     display: block;
+}
+
+/*Used in Richard's resume*/
+
+#richardBody
+{
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+#educationButton, #hobbiesButton
+{
+    display: block;
+    margin: auto;
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#eduDiv, #hobDiv, #eduList, #hobList
+{
+    margin-top: 5px;
+}
+
+#eduList, #hobList
+{
+    margin: auto;
+    width: 50%;
+}
+
+#richardUL
+{
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: blue solid 1px;
+    border-radius: 5px;
+    background-color: lightblue;
 }
 

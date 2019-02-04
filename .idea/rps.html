@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script src="resume.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <title>Richard Smith's Resume</title>
+  </head>
+  <body id="richardBody" onload="setButtonNames()">
+    <h1>Richard Smith</h1>
+    <img src="resources/richard.png" alt="me" id="myImg">
+    <div id="eduDiv">
+      <button onclick="toggleDiv('eduList', 'educationButton')" id="educationButton"></button>
+      <div id="eduList">
+        <ul id="richardUL">
+          <li>Georgia Gwinnett College, BS in Information Technology, Est 2020</li>
+          <li>University of Georgia, BS in Psychology, 2010</li>
+        </ul>
+      </div>
+    </div>
+  <div id="hobDiv">
+    <button onclick="toggleDiv('hobList', 'hobbiesButton')" id="hobbiesButton"></button>
+    <div id="hobList">
+      <ul id="richardUL">
+        <li>Learning programming</li>
+        <li>Video games</li>
+        <li>Watching and playing sports</li>
+      </ul>
+    </div>
+  </div>
+    <br>
+    <a href="team.html">
+      <button id="backHome">Back to main page</button>
+    </a>
+  </body>
+</html>

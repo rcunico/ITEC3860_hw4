@@ -10,31 +10,32 @@
 <body>
 
 <center>
-    <div id="titleDiv"><h1>Ryan Cunico's Resume</h1></div>
+    <button id="ryanTitleButton">Ryan Cunico</button>
+    <br>
     <img src="resources/molly_ryan.jpg" height="375px" alt="Ryan and his girlfriend Molly"
          about="Ryan and his girlfriend Molly">
     <p>Ryan and his girlfriend Molly</p>
     <br>
-    <button type="button" id="educationButton" onclick="changeText(this), hideShow('educationDiv')">Hide Education
+    <button type="button" id="ryanEduButton" onclick="changeText(this), hideShow('educationDiv')">Hide Education
     </button>
     <div id="educationDiv">
-        <h2 style="padding-bottom: -30px">Education:</h2>
-        <ul class="liItems">
-            <li>College #2: Georgia Gwinnett College (2020)</li>
-            <li>College: Georgia Southern University (2011)</li>
-            <li>High School: South Gwinnett High School (2006)</li>
+        <h2 id="h2Header" style="padding-bottom: -30px">Education:</h2>
+        <ul class="ulClass">
+            <li id="liItem">Georgia Gwinnett College: Software Development (Est. 2020)</li>
+            <li id="liItem">Georgia Southern University: Writing / Spanish (2011)</li>
+            <li id="liItem">High School: South Gwinnett High School (2006)</li>
         </ul>
     </div>
     <br>
-    <button id="hobbiesButton" onclick="hideShow('hobbiesDiv'); changeText(this)">Hide Hobbies</button>
+    <button id="ryanHobbiesButton" onclick="hideShow('hobbiesDiv'); changeText(this)">Hide Hobbies</button>
     <div id="hobbiesDiv">
-        <h2>Hobbies:</h2>
-        <ul class="liItems">
-            <li>Camping</li>
-            <li>Hiking</li>
-            <li>Off-roading</li>
-            <li>Fixing things</li>
-            <li>Working on cars</li>
+        <h2 id="h2Header">Hobbies:</h2>
+        <ul class="ulClass">
+            <li id="liItem">Camping</li>
+            <li id="liItem">Hiking</li>
+            <li id="liItem">Off-roading</li>
+            <li id="liItem">Fixing things</li>
+            <li id="liItem">Working on cars</li>
         </ul>
     </div>
     <br>
