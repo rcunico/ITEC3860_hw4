@@ -1,15 +1,15 @@
 //Used in main page and Ryan's resume
 function hideShow(id)
     {
-    var divID = document.getElementById(id);
+    var imgID = document.getElementById(id);
 
-    if (divID.style.display == "none")
+    if (imgID.style.display == 'none' || imgID.style.display == '')
         {
-        divID.style.display = "block";
+            imgID.style.display = 'block';
         }
     else
         {
-        divID.style.display = "none";
+            imgID.style.display = 'none';
         }
     }
 
@@ -49,7 +49,7 @@ window.onclick = function (event)
                 }
             }
         }
-    }
+    };
 
 
 //Used in Richard's resume

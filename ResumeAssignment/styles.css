@@ -43,6 +43,7 @@
     background-color: cadetblue;
     padding-top: 10px;
     padding-bottom: 10px;
+    style: inline-block;
 }
 
 /* Styling for all html pages */
@@ -98,14 +99,14 @@ liItem
 
 #richardImage
 {
-    display: block;
+    display: none;
     width: 350px;
     alignment: right;
 }
 
 #ryanImage
 {
-    display: block;
+    display: none;
     width: 350px;
     alignment: left;
 }
@@ -115,11 +116,6 @@ liItem
     width: 350px;
     height: 350px;
     resize: none;
-}
-
-#ryanImage, #richardImage
-{
-    width: 350px;
 }
 
 #teamDiv

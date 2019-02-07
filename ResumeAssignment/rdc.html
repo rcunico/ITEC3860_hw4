@@ -16,8 +16,7 @@
          about="Ryan and his girlfriend Molly">
     <p>Ryan and his girlfriend Molly</p>
     <br>
-    <button type="button" id="ryanEduButton" onclick="changeText(this), hideShow('educationDiv')">Hide Education
-    </button>
+    <button onclick="toggleDiv('educationDiv', 'ryanEduButton')" id="ryanEduButton">Hide Education</button>
     <div id="educationDiv">
         <h2 id="h2Header" style="padding-bottom: -30px">Education:</h2>
         <ul class="ulClass">
@@ -27,7 +26,7 @@
         </ul>
     </div>
     <br>
-    <button id="ryanHobbiesButton" onclick="hideShow('hobbiesDiv'); changeText(this)">Hide Hobbies</button>
+    <button onclick="toggleDiv('hobbiesDiv', 'ryanHobbiesButton')" id="ryanHobbiesButton">Hide Hobbies</button>
     <div id="hobbiesDiv">
         <h2 id="h2Header">Hobbies:</h2>
         <ul class="ulClass">
